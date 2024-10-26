@@ -1,0 +1,22 @@
+{
+  "name": "procedural-terrain",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "glsl": "^0.0.1",
+    "vite": "^5.4.2",
+    "vite-plugin-glsl": "^1.3.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lil-gui": "^0.19.2",
+    "three": "^0.167.1",
+    "three-bvh-csg": "^0.0.16",
+    "three-custom-shader-material": "5.4"
+  }
+}
